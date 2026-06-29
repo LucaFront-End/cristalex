@@ -1,0 +1,6 @@
+# Cristalex website assets to ignore
+*.zip
+*.crdownload
+.gemini/
+.system_generated/
+*.log

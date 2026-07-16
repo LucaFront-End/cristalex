@@ -1492,3 +1492,21 @@ div[data-id="5bd6c675"],
   color: var(--color-blue) !important;
   fill: var(--color-blue) !important;
 }
+
+/* ==========================================================================
+   REMOVE CELLOPHANE / SCRATCHED GLASS TEMPLATE OVERLAYS
+   ========================================================================== */
+.elementor-element-58f1bc62::before,
+.elementor-element-2ede37be::before,
+.elementor-element-5d6cda97::before,
+.elementor-element-5b218d5a::before,
+.elementor-element-412cb4d4::before,
+.elementor-element-50edb326::before,
+.elementor-element-58f1bc62 > .elementor-background-video-container::before,
+.elementor-element-2ede37be > .elementor-background-video-container::before,
+.elementor-element-5d6cda97 > .elementor-background-video-container::before,
+.elementor-element-5b218d5a > .elementor-background-video-container::before,
+.elementor-element-412cb4d4 > .elementor-background-video-container::before,
+.elementor-element-50edb326 > .elementor-background-video-container::before {
+  background-image: none !important;
+}

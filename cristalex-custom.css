@@ -1,7 +1,7 @@
 /* ==========================================================================
    CRISTALEX GLOBAL & COMMON CSS
    Theme: Elegant Dark, Architecture Blueprint Details, Gold Accents
-   Colors: BG Dark (#0c0c0c, #0d0d0d), Gold (#c9a96e), White (var(--color-white))
+   Colors: BG Dark (#0c0c0c, #0d0d0d), Gold (#F5B626), White (var(--color-white))
    Fonts: Manrope (Sans), Playfair Display (Serif)
    ========================================================================== */
 
@@ -10,14 +10,14 @@
   --color-bg-main: #ffffff;
   --color-bg-darker: #f5f5f5;
   --color-bg-lighter: #ffffff;
-  --color-gold: #c9a96e;
-  --color-gold-hover: #b5955b;
+  --color-gold: #F5B626;
+  --color-gold-hover: #dca018;
   --color-white: #111111; /* Main text color */
   --color-text-muted: rgba(17, 17, 17, 0.65);
   --color-text-dimmed: rgba(17, 17, 17, 0.4);
   --font-sans: 'Manrope', sans-serif;
   --font-serif: 'Playfair Display', serif;
-  --border-glow: rgba(201, 169, 110, 0.12);
+  --border-glow: rgba(245, 182, 38, 0.12);
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(0, 0, 0, 0.08);
   --glass-border-light: rgba(0, 0, 0, 0.15);
@@ -102,7 +102,7 @@ body {
   background-color: rgba(255, 255, 255, 0.95) !important;
   backdrop-filter: blur(16px) !important;
   -webkit-backdrop-filter: blur(16px) !important;
-  border-bottom: 1px solid rgba(201, 169, 110, 0.15) !important;
+  border-bottom: 1px solid rgba(245, 182, 38, 0.15) !important;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -214,7 +214,7 @@ body {
 .cristalex-header-cta-btn:hover {
   background-color: transparent !important;
   color: var(--color-gold) !important;
-  box-shadow: 0 0 15px rgba(201, 169, 110, 0.3) !important;
+  box-shadow: 0 0 15px rgba(245, 182, 38, 0.3) !important;
 }
 
 .cristalex-mobile-toggle {
@@ -342,7 +342,7 @@ body {
   font-family: var(--font-sans) !important;
   position: relative;
   overflow: hidden;
-  border-top: 1px solid rgba(201, 169, 110, 0.12) !important;
+  border-top: 1px solid rgba(245, 182, 38, 0.12) !important;
 }
 
 .cristalex-footer::before {
@@ -418,7 +418,7 @@ body {
   border-color: var(--color-gold) !important;
   color: #0c0c0c !important;
   transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(201, 169, 110, 0.35);
+  box-shadow: 0 6px 20px rgba(245, 182, 38, 0.35);
 }
 
 .cristalex-footer-social-btn svg {
@@ -589,7 +589,7 @@ body {
   padding: 160px 0 80px;
   background-color: var(--color-bg-darker);
   overflow: hidden;
-  border-bottom: 1px solid rgba(201, 169, 110, 0.1);
+  border-bottom: 1px solid rgba(245, 182, 38, 0.1);
 }
 
 .subpage-hero-bg {
@@ -639,7 +639,7 @@ body {
   height: 6px;
   border-radius: 50%;
   background: var(--color-gold);
-  box-shadow: 0 0 10px rgba(201, 169, 110, 0.8);
+  box-shadow: 0 0 10px rgba(245, 182, 38, 0.8);
 }
 
 .subpage-hero-badge-text {
@@ -832,7 +832,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(201, 169, 110, 0.05) 0%, transparent 100%);
+  background: linear-gradient(135deg, rgba(245, 182, 38, 0.05) 0%, transparent 100%);
   opacity: 0;
   transition: opacity 0.4s ease;
   z-index: 0;
@@ -840,8 +840,8 @@ body {
 
 .glass-card:hover {
   transform: translateY(-6px);
-  border-color: rgba(201, 169, 110, 0.35);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(201, 169, 110, 0.08);
+  border-color: rgba(245, 182, 38, 0.35);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 20px rgba(245, 182, 38, 0.08);
 }
 
 .glass-card:hover::before {
@@ -857,13 +857,13 @@ body {
   width: 52px;
   height: 52px;
   border-radius: 12px;
-  background: rgba(201, 169, 110, 0.1);
+  background: rgba(245, 182, 38, 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--color-gold);
   margin-bottom: 24px;
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  border: 1px solid rgba(245, 182, 38, 0.2);
   transition: var(--transition-smooth);
 }
 
@@ -871,7 +871,7 @@ body {
   background: var(--color-gold);
   color: var(--color-bg-darker);
   transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(201, 169, 110, 0.25);
+  box-shadow: 0 6px 15px rgba(245, 182, 38, 0.25);
 }
 
 .card-title {
@@ -910,7 +910,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  border: 1px solid rgba(245, 182, 38, 0.2);
   margin: 12px;
   border-radius: 8px;
   pointer-events: none;
@@ -964,7 +964,7 @@ body {
 .btn-gold:hover {
   background: transparent;
   color: var(--color-gold) !important;
-  box-shadow: 0 0 15px rgba(201, 169, 110, 0.3);
+  box-shadow: 0 0 15px rgba(245, 182, 38, 0.3);
   transform: translateY(-2px);
 }
 
@@ -1047,7 +1047,7 @@ body {
   border-radius: 50%;
   top: 26px;
   z-index: 2;
-  box-shadow: 0 0 10px rgba(201, 169, 110, 0.5);
+  box-shadow: 0 0 10px rgba(245, 182, 38, 0.5);
 }
 
 .timeline-item:nth-child(even) .timeline-dot {
@@ -1075,7 +1075,7 @@ body {
 }
 
 .timeline-content:hover {
-  border-color: rgba(201, 169, 110, 0.25);
+  border-color: rgba(245, 182, 38, 0.25);
   transform: translateY(-3px);
 }
 
@@ -1144,14 +1144,14 @@ body {
 }
 
 .sim-opt-card:hover {
-  background: rgba(201, 169, 110, 0.03);
-  border-color: rgba(201, 169, 110, 0.2);
+  background: rgba(245, 182, 38, 0.03);
+  border-color: rgba(245, 182, 38, 0.2);
 }
 
 .sim-opt-card.selected {
-  background: rgba(201, 169, 110, 0.07);
+  background: rgba(245, 182, 38, 0.07);
   border-color: var(--color-gold);
-  box-shadow: 0 0 15px rgba(201, 169, 110, 0.15);
+  box-shadow: 0 0 15px rgba(245, 182, 38, 0.15);
 }
 
 .sim-opt-icon {
@@ -1206,7 +1206,7 @@ body {
 .filter-btn.active {
   color: var(--color-gold);
   border-color: var(--color-gold);
-  background: rgba(201, 169, 110, 0.05);
+  background: rgba(245, 182, 38, 0.05);
 }
 
 .gallery-grid {
@@ -1310,8 +1310,8 @@ body {
 
 .form-control:focus {
   border-color: var(--color-gold) !important;
-  background: rgba(201, 169, 110, 0.03) !important;
-  box-shadow: 0 0 10px rgba(201, 169, 110, 0.1) !important;
+  background: rgba(245, 182, 38, 0.03) !important;
+  box-shadow: 0 0 10px rgba(245, 182, 38, 0.1) !important;
 }
 
 textarea.form-control {

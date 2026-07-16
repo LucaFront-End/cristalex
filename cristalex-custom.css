@@ -1414,6 +1414,14 @@ ul li svg.fa-square-check {
    ========================================================================== */
 
 /* 1. Saber Más Button (Orange Background, White text, Blue circle indicator) */
+.elementor-element-5488cbc5 .elementor-icon-list-item {
+  background-color: transparent !important;
+  background: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
 .elementor-element-5488cbc5 .elementor-icon-list-item a {
   background-color: var(--color-orange) !important;
   color: #ffffff !important;
@@ -1424,6 +1432,8 @@ ul li svg.fa-square-check {
   gap: 12px !important;
   transition: var(--transition-smooth) !important;
   text-decoration: none !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 .elementor-element-5488cbc5 .elementor-icon-list-item a:hover {
@@ -1452,31 +1462,33 @@ ul li svg.fa-square-check {
 }
 
 /* 2. FAQ Box Background (Dark Steel Blue instead of Brown) */
-.elementor-element-26877c40,
-div[data-id="26877c40"],
-.elementor-element-7608df3d {
+.elementor-element-5bd6c675,
+div[data-id="5bd6c675"],
+.elementor-element-516b86b0 {
   background-color: #1a2a3a !important;
   background: #1a2a3a !important;
   border-radius: 16px !important;
   border: 1px solid rgba(71, 122, 178, 0.25) !important;
-  padding: 24px !important;
+  padding: 30px !important;
 }
 
 /* Accordion questions */
-.elementor-element-7608df3d .e-n-accordion-item-title-text,
-.elementor-element-7608df3d .e-n-accordion-item-title,
-.elementor-element-7608df3d summary {
+.elementor-element-516b86b0 .ekit-accordion-title,
+.elementor-element-516b86b0 .elementskit-btn-link,
+.elementor-element-516b86b0 .ekit-accordion--toggler {
   color: #ffffff !important;
 }
 
-.elementor-element-7608df3d .e-n-accordion-item[open] summary,
-.elementor-element-7608df3d .e-n-accordion-item[open] .e-n-accordion-item-title-text {
+.elementor-element-516b86b0 .elementskit-card.active .ekit-accordion-title,
+.elementor-element-516b86b0 .elementskit-card.active .elementskit-btn-link,
+.elementor-element-516b86b0 .elementskit-card.active .ekit-accordion--toggler {
   color: var(--color-gold) !important;
 }
 
-.elementor-element-7608df3d .e-n-accordion-item-title-icon svg,
-.elementor-element-7608df3d .e-n-accordion-item-title-icon svg line,
-.elementor-element-7608df3d .e-n-accordion-item-title-icon svg polyline {
+/* Expand indicators in FAQ */
+.elementor-element-516b86b0 .ekit_accordion_icon_group svg,
+.elementor-element-516b86b0 .ekit_accordion_icon_group i,
+.elementor-element-516b86b0 .ekit_accordion_icon_group svg path {
   color: var(--color-blue) !important;
-  stroke: var(--color-blue) !important;
+  fill: var(--color-blue) !important;
 }

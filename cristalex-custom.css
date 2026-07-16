@@ -1408,3 +1408,75 @@ ul li svg.fa-square-check {
   background: var(--color-orange) !important;
   box-shadow: 0 0 10px rgba(250, 116, 5, 0.5) !important;
 }
+
+/* ==========================================================================
+   FAQ SECTION AND SABER MAS BUTTON OVERRIDES
+   ========================================================================== */
+
+/* 1. Saber Más Button (Orange Background, White text, Blue circle indicator) */
+.elementor-element-5488cbc5 .elementor-icon-list-item a {
+  background-color: var(--color-orange) !important;
+  color: #ffffff !important;
+  border-radius: 50px !important;
+  padding: 10px 28px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 12px !important;
+  transition: var(--transition-smooth) !important;
+  text-decoration: none !important;
+}
+
+.elementor-element-5488cbc5 .elementor-icon-list-item a:hover {
+  background-color: var(--color-orange-hover) !important;
+  box-shadow: 0 5px 15px rgba(250, 116, 5, 0.35) !important;
+  transform: translateY(-2px);
+}
+
+.elementor-element-5488cbc5 .elementor-icon-list-icon svg {
+  color: #ffffff !important;
+  fill: #ffffff !important;
+  width: 14px !important;
+  height: 14px !important;
+}
+
+.elementor-element-5488cbc5 .elementor-icon-list-icon {
+  background-color: var(--color-blue) !important;
+  border-radius: 50% !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-shrink: 0 !important;
+  margin: 0 !important;
+}
+
+/* 2. FAQ Box Background (Dark Steel Blue instead of Brown) */
+.elementor-element-26877c40,
+div[data-id="26877c40"],
+.elementor-element-7608df3d {
+  background-color: #1a2a3a !important;
+  background: #1a2a3a !important;
+  border-radius: 16px !important;
+  border: 1px solid rgba(71, 122, 178, 0.25) !important;
+  padding: 24px !important;
+}
+
+/* Accordion questions */
+.elementor-element-7608df3d .e-n-accordion-item-title-text,
+.elementor-element-7608df3d .e-n-accordion-item-title,
+.elementor-element-7608df3d summary {
+  color: #ffffff !important;
+}
+
+.elementor-element-7608df3d .e-n-accordion-item[open] summary,
+.elementor-element-7608df3d .e-n-accordion-item[open] .e-n-accordion-item-title-text {
+  color: var(--color-gold) !important;
+}
+
+.elementor-element-7608df3d .e-n-accordion-item-title-icon svg,
+.elementor-element-7608df3d .e-n-accordion-item-title-icon svg line,
+.elementor-element-7608df3d .e-n-accordion-item-title-icon svg polyline {
+  color: var(--color-blue) !important;
+  stroke: var(--color-blue) !important;
+}

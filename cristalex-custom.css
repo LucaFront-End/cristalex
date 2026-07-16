@@ -1372,3 +1372,17 @@ textarea.form-control {
 .anim-fade-in {
   animation: fadeIn 1s ease both;
 }
+
+/* ==========================================================================
+   TRAYECTORIA STATS SECTION OVERRIDES
+   ========================================================================== */
+.elementor-element-2d6bbf76 .elementor-counter .elementor-counter-number-wrapper,
+.elementor-element-2d6bbf76 .elementor-counter-number,
+.elementor-element-2d6bbf76 .elementor-counter-number-prefix,
+.elementor-element-2d6bbf76 .elementor-counter-number-suffix {
+  color: var(--color-blue) !important;
+}
+
+.elementor-element-2d6bbf76 .elementor-icon svg {
+  color: var(--color-blue) !important;
+}

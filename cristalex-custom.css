@@ -12,12 +12,14 @@
   --color-bg-lighter: #ffffff;
   --color-gold: #F5B626;
   --color-gold-hover: #dca018;
+  --color-blue: #477AB2;
+  --color-blue-hover: #376394;
   --color-white: #111111; /* Main text color */
   --color-text-muted: rgba(17, 17, 17, 0.65);
   --color-text-dimmed: rgba(17, 17, 17, 0.4);
   --font-sans: 'Manrope', sans-serif;
   --font-serif: 'Playfair Display', serif;
-  --border-glow: rgba(245, 182, 38, 0.12);
+  --border-glow: rgba(71, 122, 178, 0.15);
   --glass-bg: rgba(255, 255, 255, 0.7);
   --glass-border: rgba(0, 0, 0, 0.08);
   --glass-border-light: rgba(0, 0, 0, 0.15);
@@ -40,7 +42,7 @@ body {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-image: radial-gradient(rgba(17, 17, 17, 0.04) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(71, 122, 178, 0.08) 1px, transparent 1px);
   background-size: 50px 50px;
   pointer-events: none;
   opacity: 0.6;
@@ -57,7 +59,7 @@ body {
   position: absolute;
   width: 14px;
   height: 14px;
-  border: 1px solid rgba(17, 17, 17, 0.12);
+  border: 1px solid rgba(71, 122, 178, 0.25);
 }
 .cristalex-corner-tl { top: 20px; left: 20px; border-right: none; border-bottom: none; }
 .cristalex-corner-tr { top: 20px; right: 20px; border-left: none; border-bottom: none; }
@@ -750,12 +752,16 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  color: var(--color-gold);
+  color: var(--color-blue);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 12px;
+  background: rgba(71, 122, 178, 0.08) !important;
+  border: 1px solid rgba(71, 122, 178, 0.18) !important;
+  padding: 5px 12px !important;
+  border-radius: 20px !important;
 }
 
 .section-badge svg {

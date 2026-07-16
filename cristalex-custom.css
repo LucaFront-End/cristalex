@@ -12,6 +12,8 @@
   --color-bg-lighter: #ffffff;
   --color-gold: #F5B626;
   --color-gold-hover: #dca018;
+  --color-orange: #FA7405;
+  --color-orange-hover: #e06500;
   --color-blue: #477AB2;
   --color-blue-hover: #376394;
   --color-white: #111111; /* Main text color */
@@ -200,8 +202,8 @@ body {
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
-  background-color: var(--color-gold) !important;
-  color: #0c0c0c !important;
+  background-color: var(--color-orange) !important;
+  color: #ffffff !important;
   padding: 10px 20px !important;
   border-radius: 4px !important;
   font-size: 13px !important;
@@ -210,13 +212,13 @@ body {
   letter-spacing: 0.8px !important;
   text-decoration: none !important;
   transition: var(--transition-smooth) !important;
-  border: 1px solid var(--color-gold) !important;
+  border: 1px solid var(--color-orange) !important;
 }
 
 .cristalex-header-cta-btn:hover {
   background-color: transparent !important;
-  color: var(--color-gold) !important;
-  box-shadow: 0 0 15px rgba(245, 182, 38, 0.3) !important;
+  color: var(--color-orange) !important;
+  box-shadow: 0 0 15px rgba(250, 116, 5, 0.35) !important;
 }
 
 .cristalex-mobile-toggle {
@@ -305,8 +307,8 @@ body {
   display: inline-flex !important;
   align-items: center !important;
   gap: 8px !important;
-  background-color: var(--color-gold) !important;
-  color: #0c0c0c !important;
+  background-color: var(--color-orange) !important;
+  color: #ffffff !important;
   padding: 14px 28px !important;
   border-radius: 4px !important;
   font-size: 15px !important;
@@ -315,7 +317,7 @@ body {
   letter-spacing: 1px !important;
   text-decoration: none !important;
   margin-top: 15px !important;
-  border: 1px solid var(--color-gold) !important;
+  border: 1px solid var(--color-orange) !important;
 }
 
 @media (max-width: 991px) {
@@ -953,8 +955,8 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  background: var(--color-gold);
-  color: #0c0c0c !important;
+  background: var(--color-orange);
+  color: #ffffff !important;
   padding: 14px 32px;
   border-radius: 4px;
   font-size: 13px;
@@ -963,14 +965,14 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   transition: var(--transition-smooth);
-  border: 1px solid var(--color-gold);
+  border: 1px solid var(--color-orange);
   cursor: pointer;
 }
 
 .btn-gold:hover {
   background: transparent;
-  color: var(--color-gold) !important;
-  box-shadow: 0 0 15px rgba(245, 182, 38, 0.3);
+  color: var(--color-orange) !important;
+  box-shadow: 0 0 15px rgba(250, 116, 5, 0.35);
   transform: translateY(-2px);
 }
 
@@ -1385,4 +1387,24 @@ textarea.form-control {
 
 .elementor-element-2d6bbf76 .elementor-icon svg {
   color: var(--color-blue) !important;
+}
+
+/* ==========================================================================
+   LIST BULLETS AND ICON COLOR OVERRIDES (STEEL BLUE)
+   ========================================================================== */
+.elementor-icon-list-icon svg,
+.elementor-icon-list-icon i,
+.split-col ul li i,
+.split-col ul li svg,
+ul li i.fa-check,
+ul li svg.fa-check,
+ul li i.fa-square-check,
+ul li svg.fa-square-check {
+  color: var(--color-blue) !important;
+  fill: var(--color-blue) !important;
+}
+
+.timeline-dot {
+  background: var(--color-orange) !important;
+  box-shadow: 0 0 10px rgba(250, 116, 5, 0.5) !important;
 }

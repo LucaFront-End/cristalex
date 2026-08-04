@@ -1510,3 +1510,83 @@ div[data-id="5bd6c675"],
 .elementor-element-50edb326 > .elementor-background-video-container::before {
   background-image: none !important;
 }
+
+/* ==========================================================================
+   PARTNER LOGOS INFINITE TICKER (Below Hero)
+   ========================================================================== */
+.cristalex-logos-ticker-section {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #ffffff;
+  padding: 24px 0;
+  border-top: 1px solid rgba(71, 122, 178, 0.12);
+  border-bottom: 1px solid rgba(71, 122, 178, 0.12);
+}
+
+.cristalex-logos-ticker-section::before,
+.cristalex-logos-ticker-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 90px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.cristalex-logos-ticker-section::before {
+  left: 0;
+  background: linear-gradient(to right, #ffffff, transparent);
+}
+
+.cristalex-logos-ticker-section::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff, transparent);
+}
+
+.cristalex-logos-ticker-track {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  width: max-content;
+  animation: cristalexLogoTicker 30s linear infinite;
+}
+
+.cristalex-logos-ticker-track:hover {
+  animation-play-state: paused;
+}
+
+.cristalex-logo-item {
+  flex-shrink: 0;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+}
+
+.cristalex-logo-item img {
+  max-height: 48px;
+  max-width: 160px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.75);
+  transition: all 0.3s ease;
+}
+
+.cristalex-logo-item:hover img {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.08);
+}
+
+@keyframes cristalexLogoTicker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+

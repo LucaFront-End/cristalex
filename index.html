@@ -3381,25 +3381,39 @@
           }
           @media (max-width: 768px) {
             .cps-slide {
-              min-width: 85%;
-              height: 380px;
-              margin-right: 12px;
-              border-radius: 12px !important;
+              min-width: 88% !important;
+              height: 310px !important;
+              margin-right: 14px !important;
+              border-radius: 14px !important;
+            }
+            .cps-slide img {
+              width: 100% !important;
+              height: 100% !important;
+              object-fit: cover !important;
+              object-position: center center !important;
             }
             .cps-slide-glass {
               opacity: 1 !important;
               transform: translateY(0) !important;
-              background: rgba(15, 23, 42, 0.85) !important;
-              bottom: 16px !important;
-              left: 16px !important;
-              right: 16px !important;
-              padding: 14px 16px 12px !important;
+              background: rgba(15, 23, 42, 0.88) !important;
+              bottom: 12px !important;
+              left: 12px !important;
+              right: 12px !important;
+              padding: 12px 14px !important;
+              border-radius: 12px !important;
+            }
+            .cps-slide-tag {
+              font-size: 9px !important;
+              padding: 2px 8px !important;
+              margin-bottom: 4px !important;
             }
             .cps-slide-title {
-              font-size: 15px !important;
+              font-size: 14px !important;
+              margin: 0 0 3px !important;
             }
             .cps-slide-desc {
-              font-size: 12px !important;
+              font-size: 11px !important;
+              line-height: 1.35 !important;
             }
             .cps-slide-label {
               opacity: 0 !important;
@@ -3408,11 +3422,17 @@
               padding-top: 16px !important;
             }
             .cps-nav {
-              padding: 20px 0 28px !important;
+              padding: 18px 0 24px !important;
             }
             .cps-arrow {
               width: 40px;
               height: 40px;
+            }
+          }
+          @media (max-width: 480px) {
+            .cps-slide {
+              min-width: 90% !important;
+              height: 290px !important;
             }
           }
         </style>
